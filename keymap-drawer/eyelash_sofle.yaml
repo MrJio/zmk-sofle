@@ -54,8 +54,8 @@ layers:
   - {t: /, s: '?'}
   - RGB EFF
   - $$mdi:volume-off$$
-  - '~'
-  - '*'
+  - {t: '[', s: '{'}
+  - {t: ']', s: '}'}
   - {t: '=', s: +}
   - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-shift$$'}
   - $$mdi:apple-keyboard-command$$
@@ -63,8 +63,8 @@ layers:
   - $$mdi:apple-keyboard-command$$
   - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-shift$$'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: '[', s: '{'}
-  - {t: ']', s: '}'}
+  - {t: '-', s: _}
+  - '*'
   layer1:
   - {t: '`', s: '~'}
   - F1
