@@ -57,11 +57,11 @@ layers:
   - {t: '[', s: '{'}
   - {t: ']', s: '}'}
   - {t: '=', s: +}
-  - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-shift$$'}
+  - $$mdi:keyboard-space$$
   - $$mdi:apple-keyboard-command$$
   - RGB TOG
-  - $$mdi:apple-keyboard-command$$
-  - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-shift$$'}
+  - $$mdi:apple-keyboard-shift$$
+  - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '-', s: _}
   - '*'
